@@ -4,6 +4,5 @@ export class Product {
     this.name = name
     this.type = type
     this.price = price
-    this.eric = true
   }
 }
