@@ -17,9 +17,7 @@ describe('API Pact test', () => {
     test('ID 10 exists', async () => {
       // Arrange
       //const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees'}
-
       // Uncomment to see this fail
-      // something blah
       //const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
       const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', version: '1'} //version returned by provider
 
