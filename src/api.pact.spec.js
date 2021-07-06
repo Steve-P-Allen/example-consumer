@@ -20,7 +20,7 @@ describe('API Pact test', () => {
 
       // Uncomment to see this fail
       // const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
-      //const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', version: '1'}
+      //const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', version: '1'} //version returned by provider
 
       await mockProvider.addInteraction({
         state: 'a product with ID 10 exists',
